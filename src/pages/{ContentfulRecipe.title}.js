@@ -56,7 +56,7 @@ const RecipeTemplate = ({ data }) => {
                 Tags :
                 {tags.map((tag, index) => {
                   return (
-                    <Link to={`/${tag}`} key={index}>
+                    <Link to={`/tags/${tag}`} key={index}>
                       {tag}
                     </Link>
                   )
